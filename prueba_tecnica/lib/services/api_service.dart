@@ -90,10 +90,11 @@ class ApiService {
   static Future<List<dynamic>> obtenerProveedores(String token) async {
     try {
       final response = await http.get(
-        Uri.parse('http://10.0.2.2:8080/transacciones/getSuppliers'),
+        Uri.parse(
+            'https://us-central1-puntored-dev.cloudfunctions.net/technicalTest-developer/api/getSuppliers?=null'),
         headers: {
           'Content-Type': 'application/json; charset=UTF-8',
-          'Authorization': 'Bearer $token',
+          'Authorization': 'Bearer e8797850-95bb-4ca1-ac52-c99dd3c3cbad',
         },
       );
 

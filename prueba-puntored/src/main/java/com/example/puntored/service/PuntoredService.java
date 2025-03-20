@@ -34,9 +34,7 @@ public class PuntoredService {
 
         if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
             String token = "Bearer e8797850-95bb-4ca1-ac52-c99dd3c3cbad";
-
             tokenCache.put(user, token);
-
             return token;
         } else {
             throw new RuntimeException("Error al autenticar: " + response.getStatusCode());

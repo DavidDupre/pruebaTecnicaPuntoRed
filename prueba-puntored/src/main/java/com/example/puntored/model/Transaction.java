@@ -37,7 +37,6 @@ public class Transaction {
     @Column(name = "fecha_eliminacion")
     private LocalDate fechaEliminacion;
 
-
     // Getters y Setters
     public Long getId() {
         return id;
@@ -87,7 +86,11 @@ public class Transaction {
         this.estado = estado;
     }
 
-    public LocalDate getFechaEliminacion() { return fechaEliminacion; }
-    public void setFechaEliminacion(LocalDate fechaEliminacion) { this.fechaEliminacion = fechaEliminacion; }
+    public LocalDate getFechaEliminacion() { 
+        return fechaEliminacion; 
+    }
 
+    public void setFechaEliminacion(LocalDate fechaEliminacion) { 
+        this.fechaEliminacion = fechaEliminacion; 
+    }
 }
