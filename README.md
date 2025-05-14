@@ -59,7 +59,7 @@ Este proyecto es una aplicación móvil desarrollada en Flutter que permite real
 
 ```sh
 # Clonar el repositorio
-git clone https://github.com/TheDarkness1/pruebaTecnicaPuntoRed.git
+git clone https://github.com/DavidDupre/pruebaTecnicaPuntoRed.git
 cd <NOMBRE_DEL_PROYECTO>
 
 # Instalar dependencias
